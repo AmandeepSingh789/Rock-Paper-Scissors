@@ -30,6 +30,7 @@ var button_audio = new Audio('Audios/button.mp3');
 
 function aboutGame(){
     button_audio.play();
+    button_audio.volume=0.1;
     if(about==false){
         about_p.innerHTML= "Rock, Paper, Scissors, Lizard, Spock is a game of chance that expands. It is first used to settle a dispute about what to watch on TV between Sheldon and Raj in 'The Lizard-Spock Expansion' in the TV Show 'The Big Bang Theory'.<br/>The game was originally created by Sam Kass with Karen Bryla. According to an interview with Kass, the series producers did not originally ask for permission to use the game, but Kass was officially referenced by Sheldon as the creator of the game during the 'The Rothman Disintegration', after which he states,'Hail Sam Kass!' to which Leonard, Howard, Raj, and Sheldon all then chant 'Hail!' while raising their hands.<br/>The game is an expansion on the game Rock, Paper, Scissors. Each player picks a variable and reveals it at the same time. The winner is the one who defeats the others.<br/>In a tie, the process is repeated until a winner is found.<br/>Scissors cuts Paper <br/>Paper covers Rock <br/>Rock crushes Lizard<br/>Lizard poisons Spock <br/>Spock smashes Scissors <br/>Scissors decapitates Lizard <br/>Lizard eats Paper<br/>Paper disproves Spock<br/>Spock vaporizes Rock <br/>(and as it always has) Rock crushes Scissors ";
         about = true;
@@ -123,6 +124,7 @@ function getCompChoice(){
 
 function reset(){
     button_audio.play();
+    button_audio.volume=0.1;
     userScore=0;
     compScore=0;
     userScore_span.innerHTML=userScore;
