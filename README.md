@@ -9,7 +9,7 @@ Use the reset button to reset the store counters.
 Use the about button to know more about the game and its origin.
 
 ## Functionality
-* Interavtive Icons
+* Interactive Icons
 * Distinguished sounds play on each result
 * Personalized statement for every round
 
