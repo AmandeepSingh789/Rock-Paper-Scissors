@@ -137,6 +137,7 @@ function reset(){
 
 function win(userChoice,compChoice){
     win_audio.play();
+    win_audio.volume=0.5;
     userScore++;
     userScore_span.innerHTML=userScore;
     result_p.innerHTML= `${caseResult(userChoice,compChoice)} You Win !`;
@@ -146,6 +147,7 @@ function win(userChoice,compChoice){
 
 function lose(userChoice,compChoice){
     lose_audio.play();
+    lose_audio.volume=0.5;
     compScore++;
     compScore_span.innerHTML=compScore;
     result_p.innerHTML= `${caseResult(compChoice,userChoice)} You Lose!`;
@@ -155,6 +157,7 @@ function lose(userChoice,compChoice){
 
 function draw(userChoice,compChoice){
     draw_audio.play();
+    draw_audio.volume=0.3;
     result_p.innerHTML= "Its a Draw!";
     document.getElementById(userChoice).classList.add('grey-glow');
     setTimeout(()=>document.getElementById(userChoice).classList.remove('grey-glow'),300);
