@@ -8,7 +8,6 @@ const scoreboard_div = document.querySelector(".scoreboard");
 
 const result_p = document.querySelector(".result>p");
 
-const round_p = document.querySelector(".round>p");
 const faceoff_p = document.querySelector(".faceoff>p");
 const about_p = document.querySelector(".about>p");
 
@@ -130,7 +129,6 @@ function reset(){
     compScore_span.innerHTML=compScore;
     result_p.innerHTML= "Begin The Match!";
     about_p.innerHTML="";
-    round_p.innerHTML="";
     faceoff_p.innerHTML="";
 }
 
