@@ -1,3 +1,4 @@
+
 # Rock-Paper-Scissors-Lizard-Spock
 A playable version of Rock-Paper-Scissors-Lizard-Spock. 
 Based on the game shown in the TV Series 'The Big Bang Theory'.
@@ -8,7 +9,7 @@ Use the reset button to reset the store counters.
 Use the about button to know more about the game and its origin.
 
 ## Functionality
-* Interactive Icons
+* Interavtive Icons
 * Distinguished sounds play on each result
 * Personalized statement for every round
 
