@@ -69,7 +69,6 @@ function toName(userChoice){
 function caseRound(userChoice,compChoice){
 
     faceoff_p.innerHTML="";
-    //round_p.innerHTML=`Your Choice: ${toName(userChoice)}  <br><br>Comp Choice: ${toName(compChoice)}`;
     icon1Round(userChoice);
     icon2Round(compChoice);
 
