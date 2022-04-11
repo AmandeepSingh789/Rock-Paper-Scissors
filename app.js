@@ -72,7 +72,7 @@ function caseRound(userChoice,compChoice){
     icon2Round(compChoice);
 
     faceoff_p.append(img1);
-    faceoff_p.append("           Versus           ");
+    faceoff_p.append("                      Versus                      ");
     faceoff_p.append(img2);
 
 }
@@ -143,6 +143,7 @@ function win(userChoice,compChoice){
 }
 
 function lose(userChoice,compChoice){
+
     lose_audio.play();
     lose_audio.volume=1;
     compScore++;
@@ -153,6 +154,7 @@ function lose(userChoice,compChoice){
 }
 
 function draw(userChoice,compChoice){
+
     draw_audio.play();
     draw_audio.volume=0.3;
     result_p.innerHTML= "Its a Draw!";
